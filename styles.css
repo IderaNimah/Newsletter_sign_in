@@ -108,7 +108,7 @@ button {
         background-color: var(--White);
     }
   .main_container {
-   
+   margin: 0 auto;
     padding: 0px;
    height: 100vh;
    
