@@ -80,8 +80,18 @@ button {
     margin: 15rem auto;
     width: 35%;
     background-color: var(--White);
-    padding: 1rem;
-    border-radius: 20px;
+    padding: 3rem;
+    border-radius: 18px;
+}
+.thank_you h1{
+    margin-top: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--DarkSlateGrey);
+    font-size: 57px;
+}
+.thank_you p{
+    margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
 }
 .hidden{
     display: none;
@@ -128,8 +138,12 @@ button {
   button{
     width: 100%;
   }
-  .hidden{
-    display: block;
-    margin-top: 2rem;
-  }
+  .thank_you{
+    margin: 10rem auto;
+    width: 100%;
+    background-color: var(--White);
+    padding: 3rem;
+    border-radius: 18px;
+}
+  
 }
