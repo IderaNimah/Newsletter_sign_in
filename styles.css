@@ -95,6 +95,7 @@ button {
 }
 .conf_btn{
     margin-top: 2rem;
+    width: 100%;
 }
 .hidden{
     display: none;
@@ -107,11 +108,10 @@ button {
         background-color: var(--White);
     }
   .main_container {
-    margin: 0 auto;
-    display: flex;
+   
     padding: 0px;
    height: 100vh;
-    border-radius: 1px;
+   
     flex-direction: column;
     width: 100%;
     background-color: var(--White);
@@ -143,14 +143,17 @@ button {
   }
   .thank_you{
     margin: 7.5rem auto;
-    margin-left: -1rem;
+    /* margin-left: -1.3rem; */ 
+    
     width: 100%;
     background-color: var(--White);
     padding: 3rem;
     border-radius: 18px;
 }
 .conf_btn{
-    margin-top: 13.5rem;
+    margin-top: 13rem;
+    width: 100%;
+
 }
   
 }
