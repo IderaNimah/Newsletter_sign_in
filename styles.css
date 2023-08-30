@@ -93,6 +93,9 @@ button {
     margin-top: 1rem;
     font-family: "Roboto", sans-serif;
 }
+.conf_btn{
+    margin-top: 2rem;
+}
 .hidden{
     display: none;
     margin-top: -21rem;
@@ -139,11 +142,14 @@ button {
     width: 100%;
   }
   .thank_you{
-    margin: 10rem auto;
+    margin: 7.5rem auto;
     width: 100%;
     background-color: var(--White);
     padding: 3rem;
     border-radius: 18px;
+}
+.conf_btn{
+    margin-top: 13.5rem;
 }
   
 }
