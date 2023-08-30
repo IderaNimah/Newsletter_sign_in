@@ -87,7 +87,7 @@ button {
     margin-top: 1.2rem;
     font-family: "Roboto", sans-serif;
     color: var(--DarkSlateGrey);
-    font-size: 57px;
+    font-size: 50px;
 }
 .thank_you p{
     margin-top: 1rem;
@@ -110,7 +110,7 @@ button {
     margin: 0 auto;
     display: flex;
     padding: 0px;
-   
+   height: 100vh;
     border-radius: 1px;
     flex-direction: column;
     width: 100%;
@@ -143,6 +143,7 @@ button {
   }
   .thank_you{
     margin: 7.5rem auto;
+    margin-left: -1rem;
     width: 100%;
     background-color: var(--White);
     padding: 3rem;
