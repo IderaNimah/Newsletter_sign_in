@@ -85,6 +85,7 @@ button {
     margin: 0 auto;
     display: flex;
     padding: 0px;
+   
     border-radius: 1px;
     flex-direction: column;
     width: 100%;
@@ -92,11 +93,14 @@ button {
     height: 100vh;
   }
   .container_one{
-    padding: 5px 19px;
+    padding: 5px 35px;
     margin-top: 1rem;
   }
   .container_one h1{
    font-size: 45px;
+  }
+  .container_one p{
+    margin-top: 1.7rem;
   }
   .mobile_image img {
     display: block;
@@ -105,5 +109,11 @@ button {
   }
   .container_two img {
     display: none;
+  }
+  input{
+    width: 100%;
+  }
+  button{
+    width: 100%;
   }
 }
