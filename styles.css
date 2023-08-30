@@ -84,7 +84,7 @@ button {
         padding: 0;
         margin: 0;
     }
-  main {
+  .main_container {
     margin: 0 auto;
     display: flex;
     padding: 0px;
