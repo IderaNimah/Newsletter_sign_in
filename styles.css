@@ -76,13 +76,22 @@ button {
 .mobile_image img {
   display: none;
 }
+.thank_you{
+    margin: 15rem auto;
+    width: 35%;
+    background-color: var(--White);
+    padding: 1rem;
+    border-radius: 20px;
+}
 .hidden{
     display: none;
+    margin-top: -21rem;
 }
 @media screen and (max-width: 428px) {
     body{
         padding: 0;
         margin: 0;
+        background-color: var(--White);
     }
   .main_container {
     margin: 0 auto;
@@ -118,5 +127,9 @@ button {
   }
   button{
     width: 100%;
+  }
+  .hidden{
+    display: block;
+    margin-top: 2rem;
   }
 }
