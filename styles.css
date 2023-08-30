@@ -17,7 +17,7 @@ body {
   justify-content: center;
   font-family: "Roboto", sans-serif;
 }
-main {
+.main_container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -75,6 +75,9 @@ button {
 /* Mobile */
 .mobile_image img {
   display: none;
+}
+.hidden{
+    display: none;
 }
 @media screen and (max-width: 428px) {
     body{

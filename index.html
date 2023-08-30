@@ -10,10 +10,11 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./script.js" defer></script>
+    <!-- <script src="./script.js" defer></script> -->
   </head>
   <body>
     <main>
+        <div class="main_container">
         <div class="mobile_image">
         <img src="./images/illustration-sign-up-mobile.svg">
         </div>
@@ -37,11 +38,21 @@
             <input type="text" placeholder="email@company.com">
         </div>
 
-        <button>Subscribe to monthly newsletter</button>
+        <button id="submit">Subscribe to monthly newsletter</button>
       </div>
       <div class="container_two">
         <img src="./images/illustration-sign-up-desktop.svg" />
       </div>
+      </div>
+      <!-- second_page -->
+    <div class="thank_you hidden">
+        <img src="./images/icon-success.svg">
+        <h1>Thanks for Subscribing!</h1>
+        <p>A confirmation email as been sent too <span></span>.Please open it and click the button inside to confirm your subscription.</p>
+        <button>Dismiss messaage</button>
+      </div>
     </main>
+    
+    <script src="./script.js"></script>
   </body>
 </html>
