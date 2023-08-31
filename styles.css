@@ -91,7 +91,11 @@ button {
 }
 .thank_you p{
     margin-top: 1rem;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
+}
+#emailSpan{
+    font-weight: 700;
 }
 .conf_btn{
     margin-top: 2rem;
@@ -143,12 +147,18 @@ button {
   }
   .thank_you{
     margin: 7.5rem auto;
-    /* margin-left: -1.3rem; */ 
-    
     width: 100%;
     background-color: var(--White);
     padding: 3rem;
     border-radius: 18px;
+}
+.thank_you p{
+    width: 85%;
+    line-height: 24px;
+    font-weight: 500;
+}
+#emailSpan{
+    font-weight: 700;
 }
 .conf_btn{
     margin-top: 13rem;
