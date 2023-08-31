@@ -91,7 +91,6 @@ button {
 }
 .thank_you p{
     margin-top: 1rem;
-    font-weight: 500;
     font-family: "Roboto", sans-serif;
 }
 #emailSpan{
@@ -155,7 +154,6 @@ button {
 .thank_you p{
     width: 85%;
     line-height: 24px;
-    font-weight: 500;
 }
 #emailSpan{
     font-weight: 700;
