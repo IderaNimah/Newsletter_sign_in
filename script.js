@@ -1,18 +1,25 @@
 const thanksConfirmation = document.querySelector(".thank_you");
 const submitButton = document.getElementById("submit");
 const mainContainer = document.querySelector(".main_container");
-console.log("thanksConfirmation");
+const emailInput = document.getElementById("email");
+const errorLabel = document.getElementById("errorLabel");
 
 submitButton.addEventListener("click", () => {
-  thanksConfirmation.classList.remove("hidden");
-  mainContainer.style.display = "none";
+  const email = emailInput.value.trim();
+
+  if (validateEmail(email)) {
+    emailSpan.textContent = email;
+    emailInput.value = '';
+
+    thanksConfirmation.classList.remove("hidden");
+    mainContainer.style.display = "none";
+  } else {
+    errorLabel.classList.add('active');
+  }
 });
 
-document.getElementById("submit").addEventListener("click", function () {
-  const email = document.getElementById("email").value;
-  const emailSpan = document.getElementById("emailSpan");
-  emailSpan.textContent = email;
-
-  // Show the confirmation section
-  document.querySelector(".thank_you").classList.remove("hidden");
-});
+// email validation
+function validateEmail(email){
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return emailRegex.test(email);
+}

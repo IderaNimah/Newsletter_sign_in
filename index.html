@@ -35,8 +35,9 @@
 
           <div class="input_field">
             <form action="" id="emailForm">
-            <label for="email" class="text">Email address</label>
-            <input type="text" placeholder="email@company.com" id="email"/>
+              <label for="email" class="text">Email address</label>
+              <label for="error" class="error" id="errorLabel" >Valid email required</label>
+              <input type="text" placeholder="email@company.com" id="email" />
             </form>
           </div>
 
@@ -51,8 +52,9 @@
         <img src="./images/icon-success.svg" />
         <h1>Thanks for Subscribing!</h1>
         <p>
-          A confirmation email as been sent too <span id="emailSpan"></span>.Please open it and
-          click the button inside to confirm your subscription.
+          A confirmation email as been sent too
+          <span id="emailSpan"></span>.Please open it and click the button
+          inside to confirm your subscription.
         </p>
         <button class="conf_btn">Dismiss messaage</button>
       </div>

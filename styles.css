@@ -45,9 +45,21 @@ span {
   margin-right: 1rem;
 }
 .input_field {
+  position: relative;
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
+}
+.error{
+  position: absolute;
+  display: none;
+  color: var(--Tomato);
+  top: 0rem;
+  right: 3.3rem;
+  font-weight: 400;
+}
+.error.active{
+  display: block;
 }
 .text {
   color: var(--DarkSlateGrey);
@@ -60,6 +72,7 @@ input {
   border-radius: 10px;
   border-color: var(--Grey);
 }
+ 
 button {
   margin-top: 1.5rem;
   padding: 23px 18px;
@@ -134,6 +147,13 @@ button {
     display: block;
     width: 100%;
     margin-top: -33px;
+  }
+  .error{
+    display: none;
+    position: absolute;
+    color: var(--Tomato);
+    right: 0.5rem;
+    font-weight: 400;
   }
   .container_two img {
     display: none;
