@@ -52,6 +52,7 @@ span {
 }
 .error{
   position: absolute;
+  font-weight: bold;
   display: none;
   color: var(--Tomato);
   top: 0rem;
@@ -153,7 +154,7 @@ button {
     position: absolute;
     color: var(--Tomato);
     right: 0.5rem;
-    font-weight: 400;
+    font-weight: bold;
   }
   .container_two img {
     display: none;
