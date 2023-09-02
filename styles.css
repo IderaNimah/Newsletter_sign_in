@@ -186,7 +186,6 @@ button {
     width: 100%;
   }
   .thank_you{
-    position: fixed;
     margin: 7.5rem auto;
     width: 100%;
     background-color: var(--White);
