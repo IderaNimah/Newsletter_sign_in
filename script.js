@@ -23,3 +23,11 @@ function validateEmail(email){
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   return emailRegex.test(email);
 }
+
+// Add an event listener for the "Dismiss message" button
+const dismissButton = document.getElementById("dismissButton");
+dismissButton.addEventListener("click", () => {
+  // Hide the confirmation section
+  thanksConfirmation.classList.add("hidden");
+  mainContainer.style.display = "flex"; // Show the main input section again
+});
