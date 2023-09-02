@@ -36,10 +36,33 @@ body {
   font-size: 60px;
   margin-bottom: 1.4rem;
 }
-.container_one p {
+/* .container_one p {
   margin-top: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+} */
+.one{
+  display: flex;
+}
+.two{
+  display: flex;
+  margin-top: -1rem;
+}
+.three{
+  display: flex;
+  margin-top: 1rem;
+}
+.one p{
+  margin-top: 2rem;
+}
+.one span{
+  margin-top: 1.8rem;
+}
+.two p{
+  margin-top: 2rem;
+}
+.two span{
+  margin-top: 2rem;
 }
 span {
   margin-right: 1rem;
@@ -57,7 +80,7 @@ span {
   color: var(--Tomato);
   top: 0rem;
   right: 3.3rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 .error.active{
   display: block;
