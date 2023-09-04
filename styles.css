@@ -49,19 +49,22 @@ body {
 }
 .one p {
   margin-top: 2rem;
+  margin-left: 0.6rem;
 }
 .one span {
   margin-top: 1.8rem;
 }
 .two p {
   margin-top: 2rem;
+  margin-left: 0.6rem;
 }
 .two span {
   margin-top: 2rem;
 }
-span {
-  margin-right: 1rem;
+.three p{
+  margin-left: 0.6rem;
 }
+
 .input_field {
   position: relative;
   margin-top: 1.5rem;
@@ -111,6 +114,7 @@ button:hover {
     rgba(255, 154, 34, 1) 70%
   ); */
   background-color: var(--Tomato);
+  cursor: pointer;
 }
 /* Mobile */
 .mobile_image img {
