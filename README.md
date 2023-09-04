@@ -1,8 +1,7 @@
 # Newsletter_sign_in
 # Project Name
 
-Brief description of your project.
-
+A Newsletter Sign In
 ## Table of Contents
 
 - [Demo](#demo)
