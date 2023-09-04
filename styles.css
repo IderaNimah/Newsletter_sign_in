@@ -17,7 +17,7 @@ body {
   justify-content: center;
   font-family: "Roboto", sans-serif;
 }
-.main_container{
+.main_container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -36,32 +36,27 @@ body {
   font-size: 60px;
   margin-bottom: 1.4rem;
 }
-/* .container_one p {
-  margin-top: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-} */
-.one{
+.one {
   display: flex;
 }
-.two{
+.two {
   display: flex;
   margin-top: -1rem;
 }
-.three{
+.three {
   display: flex;
   margin-top: 1rem;
 }
-.one p{
+.one p {
   margin-top: 2rem;
 }
-.one span{
+.one span {
   margin-top: 1.8rem;
 }
-.two p{
+.two p {
   margin-top: 2rem;
 }
-.two span{
+.two span {
   margin-top: 2rem;
 }
 span {
@@ -73,7 +68,7 @@ span {
   display: flex;
   flex-direction: column;
 }
-.error{
+.error {
   position: absolute;
   font-weight: bold;
   display: none;
@@ -82,7 +77,7 @@ span {
   right: 3.3rem;
   font-weight: bold;
 }
-.error.active{
+.error.active {
   display: block;
 }
 .text {
@@ -96,7 +91,7 @@ input {
   border-radius: 10px;
   border-color: var(--Grey);
 }
- 
+
 button {
   margin-top: 1.5rem;
   padding: 23px 18px;
@@ -109,67 +104,75 @@ button {
   color: var(--White);
   font-weight: 700;
 }
+button:hover {
+  /* background-color: linear-gradient(
+    127deg,
+    rgba(255, 63, 124, 1) 40%,
+    rgba(255, 154, 34, 1) 70%
+  ); */
+  background-color: var(--Tomato);
+}
 /* Mobile */
 .mobile_image img {
   display: none;
 }
-.thank_you{
-    margin: 15rem auto;
-    width: 35%;
-    background-color: var(--White);
-    padding: 3rem;
-    border-radius: 18px;
+.thank_you {
+  margin: 15rem auto;
+  width: 35%;
+  background-color: var(--White);
+  padding: 3rem;
+  border-radius: 18px;
 }
-.thank_you h1{
-    margin-top: 1.2rem;
-    font-family: "Roboto", sans-serif;
-    color: var(--DarkSlateGrey);
-    font-size: 50px;
+.thank_you h1 {
+  margin-top: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--DarkSlateGrey);
+  font-size: 50px;
 }
-.thank_you p{
-    margin-top: 1rem;
-    font-family: "Roboto", sans-serif;
+.thank_you p {
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
 }
-#emailSpan{
-    font-weight: 700;
+#emailSpan {
+  font-weight: 700;
 }
-.conf_btn{
-    margin-top: 2rem;
-    width: 100%;
+.conf_btn {
+  margin-top: 2rem;
+  width: 100%;
 }
-.hidden{
-    display: none;
-    margin-top: -21rem;
+.hidden {
+  display: none;
+  margin-top: -21rem;
 }
 @media screen and (max-width: 428px) {
-    body{
-        padding: 0;
-        margin: 0;
-        background-color: var(--White);
-    }
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--White);
+  }
   .main_container {
-   margin: 0 auto;
+    margin: 0 auto;
     padding: 0px;
-   height: 100vh;
-   
+    height: 100vh;
+
     flex-direction: column;
     width: 100%;
     background-color: var(--White);
     height: 100vh;
   }
-  .container_one{
+  .container_one {
     padding: 5px 35px;
     margin-top: 1rem;
   }
-  .container_one h1{
-   font-size: 45px;
+  .container_one h1 {
+    font-size: 45px;
   }
   .mobile_image img {
     display: block;
     width: 100%;
     margin-top: -33px;
   }
-  .error{
+  .error {
     display: none;
     position: absolute;
     color: var(--Tomato);
@@ -179,30 +182,28 @@ button {
   .container_two img {
     display: none;
   }
-  input{
+  input {
     width: 100%;
   }
-  button{
+  button {
     width: 100%;
   }
-  .thank_you{
+  .thank_you {
     margin: 7.5rem auto;
     width: 100%;
     background-color: var(--White);
     padding: 3rem;
     border-radius: 18px;
-}
-.thank_you p{
+  }
+  .thank_you p {
     width: 85%;
     line-height: 24px;
-}
-#emailSpan{
+  }
+  #emailSpan {
     font-weight: 700;
-}
-.conf_btn{
+  }
+  .conf_btn {
     margin-top: 10.5rem;
     width: 100%;
-
-}
-  
+  }
 }
